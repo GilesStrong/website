@@ -7,7 +7,7 @@ comments: false
 image: images/posts/intro/me.jpeg
 hide: false
 search_exclude: true
-categories: [about]
+categories: []
 ---
 
 ![]({{ site.baseurl }}/images/posts/intro/me.jpeg){: width="35%" align="right"}
