@@ -8,7 +8,7 @@ search_exclude: false
 # Database links
 
 - Orcid: [0000-0002-4640-6108](https://orcid.org/0000-0002-4640-6108)
-- INSPIRE: [Giles Strong](https://inspirehep.net/authors/1439225]) - Please note that this includes *all* publications that list me as an author; CMS Collaboration papers are signed by all members of the collaboration.
+- INSPIRE: [Giles Strong](https://inspirehep.net/authors/1439225) - Please note that this includes *all* publications that list me as an author; CMS Collaboration papers are signed by all members of the collaboration.
 
 # Selected papers
 
@@ -21,7 +21,7 @@ search_exclude: false
     1. CMS Collaboration, "A MIP Timing Detector for the CMS Phase-2 Upgrade", Mar. 2019, [CERN-LHCC-2019-003 CMS-TDR-020](https://cds.cern.ch/record/2667167)
 1. Joint main author, and researcher for hh→bb𝜏𝜏 section of: CMS Collaboration, “Prospects for HH measurements at the HL-LHC”, Dec. (2018), [CMS-PAS-FTR-18-019](https://cds.cern.ch/record/2652549?ln=en)
 1. Joint main author, and researcher for h→𝜏𝜏 section of: AMVA4NewPhysics, “Classification and Regression Tools in Higgs Measurements”, Oct. (2018), [AMVA4NewPhysics D1.4](https://userswww.pd.infn.it/~dorigo/d1.4.pdf)
-1. Contributed to the alignment and calibration studies for: CMS Collaboration and TOTEM Collaboration, “Observation of proton-tagged, central (semi)exclusive production of high-mass lepton pairs in pp collisions at 13 TeV with the CMS-TOTEM precision proton spectrometer,” [JHEP 07, 153 (2018)](10.1007/JHEP07(2018)153)
+1. Contributed to the alignment and calibration studies for: CMS Collaboration and TOTEM Collaboration, “Observation of proton-tagged, central (semi)exclusive production of high-mass lepton pairs in pp collisions at 13 TeV with the CMS-TOTEM precision proton spectrometer,” [JHEP 07, 153 (2018)](https://link.springer.com/article/10.1007/JHEP07(2018)153)
 1. Contributed to central discussions of software, hardware, and tool requirements: Albertsson et al., “Machine Learning in High Energy Physics Community White Paper”, Jul. (2018), [arXiv:1807.02876 [physics.comp-ph]](https://arxiv.org/abs/1807.02876)
 1. Joint main author, and researcher for hh→bb𝜏𝜏 section of: AMVA4NewPhysics, “Multivariate Analysis Methods for Higgs Boson Searches At The Large Hadron Collider”, Feb. (2017), [AMVA4NewPhysics D1.1](https://userswww.pd.infn.it/~dorigo/wp1-d1.pdf)
 1. Sole author of: G. C. Strong, "Gluon splitting to b-quark pairs in proton-proton collisions at √s=8 TeV with ATLAS", Sep. (2015), University of Glasgow, [glathesis:2015-6680](http://theses.gla.ac.uk/6680/)
@@ -29,10 +29,10 @@ search_exclude: false
 
 # Software
 
-1. Sole developer of: G. Strong, "HiggsML Lumin", Apr. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3754669), https://github.com/GilesStrong/HiggsML_Lumin. Supporting code for [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
-1. Sole developer of: G. Strong, "PyTorch Tutorial", Feb. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3688666), https://github.com/GilesStrong/PyTorch_Tutorial
-1. Core developer of: G. Strong, "LUMIN", Mar. (2019), [Zenodo](https://doi.org/10.5281/zenodo.2601857), https://github.com/GilesStrong/lumin
-1. Sole developer of: G. Strong, "LIP Data Science School in (astro)particle physics and cosmology, Braga 2019: Keras Tutorial", Mar. 2019, [Zenodo](https://doi.org/10.5281/zenodo.2601837), https://github.com/GilesStrong/LIP_DSS_Keras_Tutorial_2019
-1. Sole develoepr of: G. Strong, "Project repository for IST QCD course, 2018 - Static-Quark Potential Calculations", Dec. (2018), [Zenodo](https://doi.org/10.5281%2Fzenodo.2601809), https://github.com/GilesStrong/LatticeQCD_IST2018
-1. Sole developer of: G. Strong, "Hyper-Parameter Optimisation Part I", [Zenodo](https://doi.org/10.5281%2Fzenodo.2601827), https://github.com/GilesStrong/Smith_HyperParams1_Demo
+1. Sole developer of: G. Strong, "HiggsML Lumin", Apr. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3754669), [https://github.com/GilesStrong/HiggsML_Lumin](https://github.com/GilesStrong/HiggsML_Lumin). Supporting code for [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
+1. Sole developer of: G. Strong, "PyTorch Tutorial", Feb. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3688666), [https://github.com/GilesStrong/PyTorch_Tutorial](https://github.com/GilesStrong/PyTorch_Tutorial)
+1. Core developer of: G. Strong, "LUMIN", Mar. (2019), [Zenodo](https://doi.org/10.5281/zenodo.2601857), [https://github.com/GilesStrong/lumin](https://github.com/GilesStrong/lumin)
+1. Sole developer of: G. Strong, "LIP Data Science School in (astro)particle physics and cosmology, Braga 2019: Keras Tutorial", Mar. 2019, [Zenodo](https://doi.org/10.5281/zenodo.2601837), [https://github.com/GilesStrong/LIP_DSS_Keras_Tutorial_2019](https://github.com/GilesStrong/LIP_DSS_Keras_Tutorial_2019)
+1. Sole develoepr of: G. Strong, "Project repository for IST QCD course, 2018 - Static-Quark Potential Calculations", Dec. (2018), [Zenodo](https://doi.org/10.5281%2Fzenodo.2601809), [https://github.com/GilesStrong/LatticeQCD_IST2018](https://github.com/GilesStrong/LatticeQCD_IST2018)
+1. Sole developer of: G. Strong, "Hyper-Parameter Optimisation Part I", [Zenodo](https://doi.org/10.5281%2Fzenodo.2601827), [https://github.com/GilesStrong/Smith_HyperParams1_Demo](https://github.com/GilesStrong/Smith_HyperParams1_Demo)
 

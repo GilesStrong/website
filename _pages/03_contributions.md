@@ -13,7 +13,7 @@ search_exclude: false
 
 # Scientific outreach and public engagement
 
-1. Continual blogging at gilesstrong.github.io/website/, and author of 42 blog posts over at amva4newphysics.wordpress.com. Mainly covering academic life and technical explanations of both physics and machine learning.
+1. Continual blogging at [gilesstrong.github.io/website/](https://gilesstrong.github.io/website/), and author of 42 blog posts over at [amva4newphysics.wordpress.com](https://amva4newphysics.wordpress.com). Mainly covering academic life and technical explanations of both physics and machine learning.
 1. Joint main presenter at the 40th PubhD de Lisboa, speaking on  Machine learning in HEP to the general public
 1. Attendee of the AMVA4NewPhysics and INSIGHTS Outreach Workshop - CERN, Switzerland, September 2018.
 1. Co-moderator for a results presentation and discussion between high schools during the 2018 International Physics Masterclasses.
