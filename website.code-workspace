@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 14,
+		"workbench.colorTheme": "Quiet Light",
+		"latex-workshop.latex.recipe.default": "lastUsed"
+	}
+}
