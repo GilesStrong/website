@@ -12,6 +12,8 @@ categories: []
 
 ![]({{ site.baseurl }}/images/posts/intro/me.jpeg){: width="35%" align="right"}
 
+*N.B. For an up-to-date CV summary, please see my [about page](https://gilesstrong.github.io/website/about/)*
+
 Hello and welcome to my new blog / personal website! My name is Giles, and I'm a researcher of particle physics and machine learning. At time of writing, I am on the cusp of defending my PhD in physics at the Instituto Superior Técnico in Lisbon, where I have spent the past 4.5 years living.
 
 Currently I am working as a researcher at the University of Padova, having recently moved to Italy during a lull in the pandemic. My day to day work takes place mostly within the context of the CMS experiment at CERN, and my particular research interests revolve around developing, adapting, and applying machine learning methods to the various domain-specific problems we face in analysing high-energy physics (HEP) data.
