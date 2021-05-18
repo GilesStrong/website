@@ -7,14 +7,16 @@ search_exclude: false
 
 # Conferences
 
-1. Improvements to ML for Searches at the LHC, G. Strong, [International Conference on High Energy Physics 2020](https://indico.cern.ch/event/868940/timetable/?view=standard#695-on-the-impact-of-modern-de) - Online, 28/07/20
+1. Improvements to ML for Searches at the LHC, G. Strong, [International Conference on High Energy Physics 2020](https://indico.cern.ch/event/868940/timetable/?view=standard#695-on-the-impact-of-modern-de) - Online, 28/07/20.
 1. CMS HL-LHC Projection for Non-Resonant Di-Higgs Production in the bb𝝉𝝉 Decay Channel, M. Bengala, M. Gallinaro, R Santo, G. Strong (speaker), & L. Cadamuro, [Posters@LHCC](https://indico.cern.ch/event/797774/#97-cms-hl-lhc-projections-for) - CERN, Switzerland, 27/02/19.
 1. Recent developments in deep-learning applied to open HEP data, G. Strong, [XIIIth Conference for Quark Confinement and the Hadron Spectrum](https://indico.cern.ch/event/648004/timetable/?view=standard#251-recent-developments-in-dee) - Maynooth University, Ireland, 02/08/18.
 1. Recent developments in deep-learning applied to open HEP data, G. Strong, Advanced Statistics for Physics Discovery (poster session) - University of Padova, Italy, 25/09/18.
 
 # Seminars & tutorials
 
-1. Improvements to ML for Searches at the LHC, G. Strong, [Geneva Data Mining and Machine Learning group](https://github.com/GilesStrong/HiggsML_Lumin/blob/master/presentations/GS_DMML_20-05-20.pdf) - Online, 20/05/20
+1. INFERNO AS A DROP-IN* LOSS FUNCTION, G. Strong, [gradHEP Campfire #2](https://indico.cern.ch/event/1005490/#3-inferno-as-a-drop-in-loss-fu) - Online, 12/02/21.
+1. Deep Learning Methods Applied to Higgs Physics at The LHC, G. Strong, PhD Defense Instituto Superior Técnico Universidade de Lisboa - Online, 22/12/20.
+1. Improvements to ML for Searches at the LHC, G. Strong, [Geneva Data Mining and Machine Learning group](https://github.com/GilesStrong/HiggsML_Lumin/blob/master/presentations/GS_DMML_20-05-20.pdf) - Online, 20/05/20.
 1. PyTorch Tutorial, G. Strong, [6ªs Jornadas de Engenharia Física](https://github.com/GilesStrong/PyTorch_Tutorial) - IST, Portugal, 04/03/20.
 1. Machine learning in HEP, G. Strong, [40º PubhD de Lisboa: Especial “Infinitamente Pequeno”](https://pubhdlisboa.wordpress.com/2019/11/26/40o-pubhd-de-lisboa-especial-infinitamente-pequeno/) - Má Língua, Portugal, 04/12/20.
 1. A Dive Into Deep Reinforcement Learning, G. Strong (summarising: OpenAI - Spinning Up in Deep RL), [LIP Seminar Series](https://indico.lip.pt/event/627/) - LIP, Portugal, 03/10/19.
@@ -27,12 +29,13 @@ search_exclude: false
 1. Keras Tutorial, G. Strong, [LIP competency centre for Simulation and Big Data meeting](https://indico.lip.pt/indico/conferenceDisplay.py?confId=275) - Online, 14/07/17.
 1. Understanding Neural Networks, G. Strong, [LIP Seminar Series](https://indico.lip.pt/indico/conferenceDisplay.py?confId=266) - LIP, Portugal, 15/03/17.
 
-# Workshops
+# Workshops & meetings
 
-1. LUMIN, G. Strong, [INFN-ML Meeting](https://agenda.infn.it/event/23648/#3-lumin-lumin-unifies-many-imp) - Online, 27/07/20,
-1. LUMIN, G. Strong, CMS ML Kick-Off Workshop - Online, 02/07/20,
-1. Neural Networks On A Budget, G. Strong, [LIP & IDPASC Students' Workshop](https://indico.lip.pt/event/699/timetable/?view=standard#63-neural-networks-on-a-budget) - Online, 25/06/20,
-1. Machine Learning In High Energy Physics, G. Strong, [VBScan Workshop](https://indico.cern.ch/event/846927/timetable/?view=standard#17-machine-learning-looking-fo) - LIP-Lisbon, Portugal, 05/12/19,
+1. IMPROVEMENTS TO LUMIN & INFERNO IN PYTORCH, G. Strong, [IML Meeting](https://indico.cern.ch/event/1015407/#20-recent-additions-and-change) - Online, 16/03/21
+1. LUMIN, G. Strong, [INFN-ML Meeting](https://agenda.infn.it/event/23648/#3-lumin-lumin-unifies-many-imp) - Online, 27/07/20.
+1. LUMIN, G. Strong, CMS ML Kick-Off Workshop - Online, 02/07/20.
+1. Neural Networks On A Budget, G. Strong, [LIP & IDPASC Students' Workshop](https://indico.lip.pt/event/699/timetable/?view=standard#63-neural-networks-on-a-budget) - Online, 25/06/20.
+1. Machine Learning In High Energy Physics, G. Strong, [VBScan Workshop](https://indico.cern.ch/event/846927/timetable/?view=standard#17-machine-learning-looking-fo) - LIP-Lisbon, Portugal, 05/12/19.
 1. Deep Learning In Higgs Physics, G. Strong, 8th AMVA4NP Workshop - DESY, Germany, 06/07/19.
 1. Deep Learning In Higgs Physics, G. Strong, [LIP & IDPASC Students' Workshop](https://idpasc.lip.pt/uploads/talk/file/642/GS_LIP_Workshop.pdf) - University of Minho, Portugal, 01/07/19.
 1. Attempted Reproduction of the Super-TML Method, G. Strong, 3rd CMS ML Workshop - CERN, Switzerland, 19/06/19.
