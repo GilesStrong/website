@@ -7,6 +7,8 @@ search_exclude: false
 
 # Conferences
 
+1. Muon energy regression hackathon challenge, T. Dorigo, L. Layer, G. Strong, [Quarks to Cosmos with AI](https://events.mcs.cmu.edu/qtc2021/) - Online/Carnegie Mellon University, USA, 12/07/21-16/07/21.
+    - Jointly involved in: organisation & planning, baseline code, scoring, introductory & technical seminars 
 1. Improvements to ML for Searches at the LHC, G. Strong, [International Conference on High Energy Physics 2020](https://indico.cern.ch/event/868940/timetable/?view=standard#695-on-the-impact-of-modern-de) - Online, 28/07/20.
 1. CMS HL-LHC Projection for Non-Resonant Di-Higgs Production in the bb𝝉𝝉 Decay Channel, M. Bengala, M. Gallinaro, R Santo, G. Strong (speaker), & L. Cadamuro, [Posters@LHCC](https://indico.cern.ch/event/797774/#97-cms-hl-lhc-projections-for) - CERN, Switzerland, 27/02/19.
 1. Recent developments in deep-learning applied to open HEP data, G. Strong, [XIIIth Conference for Quark Confinement and the Hadron Spectrum](https://indico.cern.ch/event/648004/timetable/?view=standard#251-recent-developments-in-dee) - Maynooth University, Ireland, 02/08/18.
@@ -14,7 +16,9 @@ search_exclude: false
 
 # Seminars & tutorials
 
-1. INFERNO AS A DROP-IN* LOSS FUNCTION, G. Strong, [gradHEP Campfire #2](https://indico.cern.ch/event/1005490/#3-inferno-as-a-drop-in-loss-fu) - Online, 12/02/21.
+1. Graph neural networks in HEP, R. Pedro (speaker) & G. Strong (speaker), LIP competency centre for Simulation and Big Data meeting (10.5281/zenodo.5090549) - Online, 12/07/21.
+1. TomOpt: Differential Muon Tomography Optimisation, G. Strong & T. Dorigo, MODE meeting - Online, 07/06/21.
+1. Inferno As A Drop-in* Loss Function, G. Strong, [gradHEP Campfire #2](https://indico.cern.ch/event/1005490/#3-inferno-as-a-drop-in-loss-fu) - Online, 12/02/21.
 1. Deep Learning Methods Applied to Higgs Physics at The LHC, G. Strong, PhD Defense Instituto Superior Técnico Universidade de Lisboa - Online, 22/12/20.
 1. Improvements to ML for Searches at the LHC, G. Strong, [Geneva Data Mining and Machine Learning group](https://github.com/GilesStrong/HiggsML_Lumin/blob/master/presentations/GS_DMML_20-05-20.pdf) - Online, 20/05/20.
 1. PyTorch Tutorial, G. Strong, [6ªs Jornadas de Engenharia Física](https://github.com/GilesStrong/PyTorch_Tutorial) - IST, Portugal, 04/03/20.
@@ -31,7 +35,10 @@ search_exclude: false
 
 # Workshops & meetings
 
-1. IMPROVEMENTS TO LUMIN & INFERNO IN PYTORCH, G. Strong, [IML Meeting](https://indico.cern.ch/event/1015407/#20-recent-additions-and-change) - Online, 16/03/21
+1. An Introduction to LUMIN: A deep learning and data science ecosystem for high-energy physics, G. Strong, PyHEP 2021 (10.5281/zenodo.5089905) - Online, 09/07/21.
+1. Calorimetric Measurement of Multi-TeV Muons via Deep Regression, J Kieseler, G. Strong (speaker), F. Chiandotto, T. Dorigo, & L. Layer, ML4Jets - Heidelberg/Online, Germany, 07/07/21.
+1. PyTorch INFERNO, G. Strong, PyHEP 2021 (10.5281/zenodo.5075081) - Online, 06/07/21.
+1. Improvements To Lumin & Inferno In PyTorch, G. Strong, [IML Meeting](https://indico.cern.ch/event/1015407/#20-recent-additions-and-change) - Online, 16/03/21
 1. LUMIN, G. Strong, [INFN-ML Meeting](https://agenda.infn.it/event/23648/#3-lumin-lumin-unifies-many-imp) - Online, 27/07/20.
 1. LUMIN, G. Strong, CMS ML Kick-Off Workshop - Online, 02/07/20.
 1. Neural Networks On A Budget, G. Strong, [LIP & IDPASC Students' Workshop](https://indico.lip.pt/event/699/timetable/?view=standard#63-neural-networks-on-a-budget) - Online, 25/06/20.
