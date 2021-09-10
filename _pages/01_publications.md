@@ -34,6 +34,7 @@ search_exclude: false
 
 # Software
 
+1. Core developer of MODE collaboration, "TomOpt"
 1. Sole developer of G. Strong, "PyTorch INFERNO", Mar. (2021), [Zenodo](10.5281/zenodo.4597140), [https://github.com/GilesStrong/pytorch_inferno](https://github.com/GilesStrong/pytorch_inferno)
 1. Sole developer of: G. Strong, "HiggsML Lumin", Apr. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3754669), [https://github.com/GilesStrong/HiggsML_Lumin](https://github.com/GilesStrong/HiggsML_Lumin). Supporting code for [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
 1. Sole developer of: G. Strong, "PyTorch Tutorial", Feb. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3688666), [https://github.com/GilesStrong/PyTorch_Tutorial](https://github.com/GilesStrong/PyTorch_Tutorial)
