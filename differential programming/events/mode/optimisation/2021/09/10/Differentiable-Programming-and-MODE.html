@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Differentiable Programming and MODE | Giles Chatham Strong</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Differentiable Programming and MODE" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Take-home messages from a recent workshop, and the role of differential optimisation in detector design." />
+<meta property="og:description" content="Take-home messages from a recent workshop, and the role of differential optimisation in detector design." />
+<link rel="canonical" href="https://gilesstrong.github.io/website/differential%20programming/events/mode/optimisation/2021/09/10/Differentiable-Programming-and-MODE.html" />
+<meta property="og:url" content="https://gilesstrong.github.io/website/differential%20programming/events/mode/optimisation/2021/09/10/Differentiable-Programming-and-MODE.html" />
+<meta property="og:site_name" content="Giles Chatham Strong" />
+<meta property="og:image" content="https://gilesstrong.github.io/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/denny-muller-uWYedErgXgU-unsplash.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-10T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://gilesstrong.github.io/website/differential%20programming/events/mode/optimisation/2021/09/10/Differentiable-Programming-and-MODE.html","@type":"BlogPosting","headline":"Differentiable Programming and MODE","dateModified":"2021-09-10T00:00:00-05:00","datePublished":"2021-09-10T00:00:00-05:00","image":"https://gilesstrong.github.io/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/denny-muller-uWYedErgXgU-unsplash.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"https://gilesstrong.github.io/website/differential%20programming/events/mode/optimisation/2021/09/10/Differentiable-Programming-and-MODE.html"},"description":"Take-home messages from a recent workshop, and the role of differential optimisation in detector design.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/website/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://gilesstrong.github.io/website/feed.xml" title="Giles Chatham Strong" /><link rel="shortcut icon" type="image/x-icon" href="/website/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /><script src="https://hypothes.is/embed.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/website/">Giles Chatham Strong</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/website/about/">About Me</a><a class="page-link" href="/website/publications/">Publications</a><a class="page-link" href="/website/presentations/">Presentations</a><a class="page-link" href="/website/contributions/">Other contributions</a><a class="page-link" href="/website/categories/">Tags</a><a class="page-link" href="/website/search/">Search</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Differentiable Programming and MODE</h1><p class="page-description">Take-home messages from a recent workshop, and the role of differential optimisation in detector design.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-10T00:00:00-05:00" itemprop="datePublished">
+        Sep 10, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      13 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/website/categories/#differential programming">differential programming</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/website/categories/#events">events</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/website/categories/#MODE">MODE</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/website/categories/#optimisation">optimisation</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#what-is-differentiable-programming">What is Differentiable Programming?</a></li>
+<li class="toc-entry toc-h2"><a href="#why-mode">Why MODE?</a></li>
+<li class="toc-entry toc-h2"><a href="#how-doescan-differential-programming-help">How does/can differential programming help</a></li>
+<li class="toc-entry toc-h2"><a href="#differential-optimisation-in-action">Differential Optimisation in Action</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#calorimeter-optimisation">Calorimeter optimisation</a></li>
+<li class="toc-entry toc-h3"><a href="#muon-tomography-optimisation">Muon tomography optimisation</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
+</ul><p><img src="/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/attendees.png" style=""></p>
+
+<p>Earlier this week, I had the pleasure to follow a jam-packed meeting of experts from around the world discussing the application of differential programming to the topic of experiment planning and optimisation. This workshop was organised by the <a href="https://mode-collaboration.github.io/"><u>MODE collaboration</u></a> (a new consortium dedicated to Machine-learning Optimized Design of Experiments, of which yours truly is a member), and kindly hosted by UCLouvain, Belgium. Alongside planning sessions for MODE activities, we heard talks on a range of topics, primarily in the domains of computer science and particle physics. I’ll aim to summarise below, the main discussion points.</p>
+
+<h2 id="what-is-differentiable-programming">
+<a class="anchor" href="#what-is-differentiable-programming" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Differentiable Programming?</h2>
+
+<p>In his <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#1-opening-lecture-differentiab"><u>opening lecture</u></a>, Atılım Güneş Baydin (MODE, University of Oxford), quoted Differentiable Programming (DP) as a generalisation of Deep Learning (DL); a style of software writing in which lines of code are not explicitly written by the developer, but instead the program is composed of differentiable modules (e.g. neural nets, or other, more simple functions). Through the use of automatic differentiation, these modules can be adjusted such that they fulfil their expected role.</p>
+
+<p>Likely, readers will be familiar with how a convolutional neural network (CNN) can be trained to identify cats, dogs, etc. in images, but consider now a system which instead writes out a text description of the image.</p>
+
+<p>One approach would be to train the CNN to output objects and their positions, and then train a text generator to take these objects and positions and write a summary. However the system is limited by the developer’s choice of CNN output, which forces the image representation to be something traditionally understandable by humans.</p>
+
+<p>The “<a href="https://karpathy.medium.com/software-2-0-a64152b37c35"><u>software 2.0</u></a>” approach is to forfeit some degree of interpretability and allow the CNN to interpret the image into an information-rich latent space representation, and the text-generator to process this representation into words. Whilst we could pre-train both of these blocks in isolation, the full optimisation will involve training both blocks simultaneously, and in so doing reduce the limitations on the system that would otherwise be present if the blocks were kept separate.</p>
+
+<p>In the first approach we solve our task by creating two artificial subtasks and solving those in isolation. We may be able to solve these subtasks optimally, but that doesn’t guarantee that the complete task will be optimally solved. In the second approach, we specify blocks, connect them up, and solve our task directly.</p>
+
+<p>The figure below shows examples of what the two approaches might achieve: in the first approach, the hypothetical developer did not include any possibility to output texture or overall image colour and this limits the output possibilities of the text generator; whereas in the second approach, embeddings for these details could be learnt via the end-to-end training and do not have to be explicitly included.</p>
+
+<p><img src="/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/image1.png" style="width:7.0625in;height:3.91667in">
+Photo credits: <a href="https://unsplash.com/photos/uWYedErgXgU"><u>Denny Müller</u></a></p>
+
+<h2 id="why-mode">
+<a class="anchor" href="#why-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why MODE?</h2>
+
+<p>The workshop began with an <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#b-429078-introduction-and-goal"><u>introductory talk</u></a> from Tommaso Dorigo (MODE, INFN-Padova, CMS), in which he lamented that the design of large-scale scientific instruments, such as particle detectors like those found at CERN, was still very much dominated by the immovable beliefs of an old guard of proficient experts, with well-established (but mathematically unproven) design doctrines.</p>
+
+<p>Three identified weaknesses are:</p>
+
+<ul>
+  <li>
+    <p>Designs would be created without full consideration of the particle-reconstruction algorithms that will be applied to the detector signals; and with the rise of DL such gaps between design and usage grow even wider.</p>
+  </li>
+  <li>
+    <p>Detector design takes place with limited communication between designers and researchers; there is no quick way to measure the impact a design choice has on the end physics goals of the detector.</p>
+  </li>
+  <li>
+    <p>Human limitations ⇒ design limitations: difficult to design in 3D, therefore create in 2D and stack modules together; design part of the detector, and mirror it, even though not all physical processes are symmetric; unable to consider all possible designs when trying to keep to a budget.</p>
+  </li>
+</ul>
+
+<p>All three of these concerns stem from approaching the problem by splitting the design into subtasks and solving each in isolation. If the aim is to discover di-Higgs production, the detector design process is: design transparent trackers to measure charged particle momenta via magnetic curvature; design dense calorimeters to destroy particles and measure their energy; design sub-detectors to time when particles exit the detector; hope it’s under budget otherwise run studies to see if money can be saved somewhere. Only once a mature design is in place would a few aspects of the design be fine tuned by estimating their effects on the sensitivity to di-Higgs production (see e.g. tables 5.2 and 5.3 of <a href="https://cds.cern.ch/record/2667167?ln=en"><u>CMS-TDR-020</u></a>).</p>
+
+<p>As we’ve discussed in the previous section, such isolation of tasks limits optimisation to the study of proxy objectives, which may only be loosely indicative of the desired goal. Dorigo showed in a <a href="https://www.sciencedirect.com/science/article/pii/S2666032620300090"><u>recent study</u></a>, that even without relying on DP, by optimising a few parameters of a proposed detector with respect to a relevant metric, he could double the performance of their original design at no extra cost (and as a bonus save O(1e5) euro by replacing some beam-measurement detectors with software). The aim of the MODE collaboration, then, is to learn how to apply this principle of end-goal-oriented optimisation to a larger space of parameters in more complicated scenarios.</p>
+
+<h2 id="how-doescan-differential-programming-help">
+<a class="anchor" href="#how-doescan-differential-programming-help" aria-hidden="true"><span class="octicon octicon-link"></span></a>How does/can differential programming help</h2>
+
+<p>When training a neural network, we specify our goal as a loss function which quantifies how far the output of the network is from the ideal output. We then train the network by feeding in example data, computing the loss based on the output, and then analytically computing the exact effect of every parameter in the network on the performance of the network, and then updating the parameters.</p>
+
+<p>The way in which the effects of the parameters are evaluated is by computing the derivative of the loss with respect to each parameter. Such derivatives can be computed via automatic differentiation (the main subjects of <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#1-opening-lecture-differentiab"><u>Güneş Baydin’s</u></a> and <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#31-efficient-and-modular-impli"><u>Mathieu Blondel’s</u></a> (Google Brain) talks. Nowadays, this takes place within libraries like PyTorch, TensorFlow, and JAX. Adam Paszke (Google Brain, and developer for PyTorch and JAX (and DEX)) gave a <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#3-keynote-lecture-jax-for-scie"><u>keynote talk</u></a> on autodiff in JAX. The use of autograd isn’t limited to just optimisation of parameters, but can also be used for uncertainty propagation, as demonstrated by <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#12-automatic-differentiation-f"><u>Alberto Ramos Martinez</u></a> (University of Valencia, CSIC).</p>
+
+<p>This style of optimisation can be extended to modules other than neural networks, provided the system is kept differential, and in an article earlier this year, we, the MODE collaboration, proposed a generic pipeline for detector optimisation, shown below for the case of muon tomography.</p>
+
+<p><img src="/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/image2.png" style="width:5.22888in;height:3.44999in"></p>
+
+<p>By careful construction of the simulation and inference chains, the final objective function can be differentiated with respect to the detector parameters, which can be updated just like those in a neural network. Some parts of the chain may need to be substituted for <a href="https://arxiv.org/abs/2002.04632"><u>surrogate models</u></a>, either to speed up optimisation, or to make them differentiable. The objective, here, can account for not only the performance (physics sensitivity, imaging accuracy, etc.) but also the budgets required to build the detector (which could be fiscal, heat generation, power consumption, space occupied, etc.).</p>
+
+<p>Whilst other optimisation techniques exist (e.g. genetic algorithms and simulated annealing), a few of the advantages of differential optimisation are that:</p>
+
+<ul>
+  <li>
+    <p>The region of optimal solutions can be explored; as discussed in Mikhail Belkin’s (Halicioğlu Data Science Institute, UCSD) <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#2-keynote-lecture-generalizati"><u>keynote talk</u></a>, large systems are unlikely to converge to a single minima, but rather to a manifold of degenerate minima. By moving along these manifolds, we can sample designs which are expected to perform equally well, but might be more or less feasible to build. Similar to how Fast Geometric Ensembling (<a href="https://arxiv.org/abs/1802.10026"><u>1</u></a>, <a href="https://arxiv.org/abs/1803.00885"><u>2</u></a>) produces multiple models from a single training.</p>
+  </li>
+  <li>
+    <p>Since parameters have physical meaning, and we know analytically how they affect the performance, design interpretation becomes much easier: e.g. “increasing the detector width improves the performance by a measurable rate”. Similarly, unintuitive changes can be identified and examined</p>
+  </li>
+</ul>
+
+<p>The rich diagnostic feedback available, and the potential to have multiple designs, means that a framework built around differential optimisation could be invaluable as an assistive tool to detector optimisers. Of course we can never fully simulate all aspects of a detector design to the required detail, nor substitute the expert knowledge of detector designers; our aim is to provide tools to augment their workflow (like predictive text or driver assistance) and to better include notions of the final goal of the experiment. As an example of something similar to this, Auralee Edelen (SLAC) showed in her <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#10-optimization-of-hep-acceler"><u>talk</u></a> how ML-driven assistance tools could aid experts in tuning their machinery, reducing setup times from ~400 hours/year (~$12M), to about 7 hours/year.</p>
+
+<h2 id="differential-optimisation-in-action">
+<a class="anchor" href="#differential-optimisation-in-action" aria-hidden="true"><span class="octicon octicon-link"></span></a>Differential Optimisation in Action</h2>
+
+<p>So far this all sounds too good to be true, so the obvious questions are “Does it work? Can it be done?”.</p>
+
+<p>In addition to the talks already mentioned, throughout the workshop we heard examples of how DP is being used for individual parts of experiments (e.g. final stage inference, data simulation, and reconstruction algorithms) in a wide variety of applications:</p>
+
+<ul>
+  <li>
+    <p>Topographical imaging and material ID: <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#4-machine-learning-application"><u>Volcanic eruption prediction</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#5-role-of-ai-in-the-industrial"><u>furnace calibration and damage detection</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#6-material-identification-in-n"><u>nuclear waste detection</u></a></p>
+  </li>
+  <li>
+    <p>Optimal signal inference under systematic uncertainties: <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#11-cms-open-data-application-o"><u>INFERNO</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#32-neos-upstream-optimization"><u>Neos</u></a></p>
+  </li>
+  <li>
+    <p><a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#9-generation-of-calorimeter-sh"><u>Particle shower simulation</u></a></p>
+  </li>
+  <li>
+    <p>Nuclear physics: <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#14-dnn-for-distortion-fluctuat"><u>detector calibration</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#15-neural-networks-for-jet-ene"><u>data preprocessing</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#16-in-medium-heavy-quark-inter"><u>learning particle potentials</u></a></p>
+  </li>
+  <li>
+    <p><a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#22-targeted-dark-matter-substr"><u>Gravitational lensing inference</u></a></p>
+  </li>
+  <li>
+    <p>Neutrino physics: <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#24-ai-in-neutrinoless-double-b"><u>neutrinoless double-beta decay detection</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#25-machine-learning-techniques"><u>reconstruction in Cherenkov detectors</u></a>, <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#26-scalable-end-to-end-deep-le"><u>track reconstruction and clustering</u></a></p>
+  </li>
+</ul>
+
+<p>So the technology exists and is being used for reconstruction and inference. But what about in detector optimisation? We heard how <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#21-optimization-of-optical-and"><u>IceCube</u></a> and <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#28-p-one-test-case-for-ml-base"><u>P-ONE</u></a> were looking to use automated detector optimisation to help design their next generation of neutrino telescopes, so there’s definitely a demand for it. So how are we progressing on that front? For that, we had two presentations, both from MODE members.</p>
+
+<h3 id="calorimeter-optimisation">
+<a class="anchor" href="#calorimeter-optimisation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Calorimeter optimisation</h3>
+
+<p>Alexey Boldyrev (MODE, Lambda-HSE) <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#8-optimization-of-lhcb-calorim"><u>spoke</u></a> on how he and his team were working on optimising the electromagnetic calorimeter (ECal) for the LHCb experiment. Pictured below, the ECal consists of an array of detection modules for measuring the particle showers produced by electromagnetic particles. A range of modules are available, each with varying performance and costs, so with future upgrades planned, the question is “How should a fixed budget be spent to gain maximum performance?”.</p>
+
+<p><img src="/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/image3.png" style="width:3.37557in;height:2.20729in"></p>
+
+<p>Their approach so far is to simulate the detector responses using Geant4 (an accurate, but non-differentiable detector simulator), reconstruct particles using a boosted decision tree (BDT) regressor (again, non-differentiable), and evaluate a performance metric. This process is relatively slow, and so in order to optimise the detector layout, they fit a Gaussian process model to the evaluated points. This surrogate model can then be used for Bayesian optimisation, in which regions of expected high-performance (exploitation), and regions of unknown performance (exploration) can be evaluated using the full simulation, and used to update the surrogate model.</p>
+
+<p>Whilst this doesn’t yet make use of DP, it does show how automated design can be applied to complicated detectors. Their future plans include approximating the detector response with a differentiable model (GAN), and replacing the BDT with a neural network (again, differentiable), both of which will help move the study towards being able to leverage DP for optimisation.</p>
+
+<h3 id="muon-tomography-optimisation">
+<a class="anchor" href="#muon-tomography-optimisation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Muon tomography optimisation</h3>
+
+<p>This workshop was a particularly special occasion for me, since I was able to <a href="https://indico.cern.ch/event/1022938/timetable/?view=standard#7-tomopt-pytorch-based-differe"><u>show off</u></a> a project I, and Dorigo, had been working on: TomOpt - a python framework for providing differential optimisation of detectors for muon tomography, using PyTorch as a backend. This is meant to be a first step into investigating the applicability of the fully differentiable pipeline we outlined in the MODE article (Figure 1). Muon tomography is a useful technique with a wide variety of applications (as was seen in prior presentations), but from an optimisation point of view, is comparatively simple. Given this, and the industry connections and experience within MODE, it seemed a good place to start testing our pipeline.</p>
+
+<p>The aim of muon tomography is to infer characteristics of a volume of space (e.g. check the contents of shipping containers, to identify hazardous materials in sealed barrels, or to indicate area of damage in machinery). Muons are created when cosmic rays interact with the Earth atmosphere, and we can exploit their high penetration power to image volumes; by measuring their incoming and outgoing trajectories using detectors, we can infer what matter they interacted with, and where. The optimisation question is then “How should we configure the detectors to achieve optimal imaging precision for a given budget?”, and this is what TomOpt aims to help with.</p>
+
+<p>The process consists of several stages:</p>
+
+<ul>
+  <li>
+    <p>Muons are generated by sampling random functions.</p>
+  </li>
+  <li>
+    <p>The muons pass through the incoming detectors, and record hits, which are differentiable with respect to the detector parameters we aim to optimise.</p>
+  </li>
+  <li>
+    <p>The muons pass through the hidden volume, and undergo scattering due to the varying density of material.</p>
+  </li>
+  <li>
+    <p>The muons pass through the outgoing detectors and record a second set of hits.</p>
+  </li>
+  <li>
+    <p>Muon trajectories are fitted to the incoming and outgoing hits, and are also then differentiable w.r.t. the detector parameters.</p>
+  </li>
+  <li>
+    <p>We use the trajectories to infer the densities of the hidden volume and pass the predictions to a loss function</p>
+  </li>
+  <li>
+    <p>The loss function contains two components:</p>
+
+    <ul>
+      <li>
+        <p>The error of the predictions (how different the predictions are from the true values);</p>
+      </li>
+      <li>
+        <p>The cost of the detectors (computed at the current detector parameters).</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>This loss can then be differentiated w.r.t. the detector parameters, which can then be updated by gradient descent.</p>
+  </li>
+</ul>
+
+<p><img src="/website/images/posts/2021-09-10-Differentiable-Programming-and-MODE/media/image4.png" style="width:3.78021in;height:3.1678in"></p>
+
+<p>After a few rounds of such an optimisation process, we should arrive at a detector setup which is close to budget and provides good imaging. Currently, though, this is still very much in development, but we’re making progress!</p>
+
+<h2 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h2>
+
+<p>This was the first workshop organised by the MODE collaboration and from the number of attendees (105, of which 39 were speakers), it is clear that there is both great interest and progress in the area of differentiable programming for experiment optimisation. There are even more talks than what I could include here, so I’d recommend checking the agenda. We should soon have recordings of the talks available, too. If any of this work sounds interesting and you are looking to work on similar topics, you may wish to consider contacting <a href="https://mode-collaboration.github.io/#contact"><u>MODE</u></a> to help coordinate efforts.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="GilesStrong/website"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/website/differential%20programming/events/mode/optimisation/2021/09/10/Differentiable-Programming-and-MODE.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/website/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/website/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/website/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Personal blog and website of Giles Chatham Strong, a particle physicist and machine learning researcher. As a disclaimer, all thoughts and opinions expressed on this site are not necessarily representative of those held by other people, groups, or other entities. Please be sure to also refer to official sources with regards to any claims or announcements. Copyright © Giles Chatham Strong 2020 onwards.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/GilesStrong" title="GilesStrong"><svg class="svg-icon grey"><use xlink:href="/website/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/Giles_C_Strong" title="Giles_C_Strong"><svg class="svg-icon grey"><use xlink:href="/website/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
