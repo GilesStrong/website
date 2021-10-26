@@ -35,6 +35,7 @@ search_exclude: false
 
 # Workshops & meetings
 
+1. TomOpt: PyTorch-based Differential Muon Tomography Optimisation, G. Strong (speaker), T. Dorigo, [24th European Automatic Differentiation Workshop](http://www.autodiff.org/?module=Workshops&submenu=EuroAD%2F24%2Fmain) - Online, 03/11/21
 1. TomOpt: PyTorch-based Differential Muon Tomography Optimisation, G. Strong (speaker), T. Dorigo, [First MODE Workshop on Differentiable Programming](https://indico.cern.ch/event/1022938/timetable/?view=standard#7-tomopt-pytorch-based-differe) - Université Catholique de Louvain/Online, Belgium, 06/09/21
 1. An Introduction to LUMIN: A deep learning and data science ecosystem for high-energy physics, G. Strong, CMS Town Hall 2021 (10.5281/zenodo.5089905) - Online, 29/07/21.
 1. An Introduction to LUMIN: A deep learning and data science ecosystem for high-energy physics, G. Strong, PyHEP 2021 (10.5281/zenodo.5089905) - Online, 09/07/21.
