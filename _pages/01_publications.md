@@ -12,9 +12,9 @@ search_exclude: false
 
 # Selected papers
 
+1. Joint author, and researcher for: h→𝜏𝜏 and hh→bb𝜏𝜏@HL-LHC sections of: A. Stakia, T. Dorigo, et al. (23 additional authors inc. G. Strong), "Advanced Multi-Variate Analysis Methods for New Physics Searches at the Large Hadron Collider", Nov. (2021), Reviews in Physics 7:100063.
 1. Second author & main researcher of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, “Calorimetric Measurement of Multi-TeV Muons via Deep Regression”, July (2021), [arXiv:2107.02119 [physics.ins-det]](https://arxiv.org/abs/2107.02119) - accepted for publication in European Physics Journal C.
 1. Minor author of: T. Dorigo et al. (5 additional authors inc. G. Strong), “RanBox: Anomaly Detection in the Copula Space”, June (2021), [arXiv:2106.05747 [physics.data-an]](https://arxiv.org/abs/2106.05747) - preprint submitted to Computer Physics Communications.
-1. Joint author, and researcher for h→𝜏𝜏 and hh→bb𝜏𝜏@HL-LHC sections of: A. Stakia, T. Dorigo, et al. (23 additional authors inc. G. Strong), "Advanced Multi-Variate Analysis Methods for New Physics Searches at the Large Hadron Collider", May (2021), [arXiv:2105.07530 [hep-ex]](https://arxiv.org/abs/2105.07530) - accepted for publication in Reviews in Physics.
 1. Member author of: MODE Collaboration, "Toward Machine Learning Optimization of Experimental Design", Mar. (2021), [Nuclear Physics News, 31:1, 25-28](https://www.tandfonline.com/doi/full/10.1080/10619127.2021.1881364)
 1. Sole author of: G. Strong, "Deep learning methods applied to Higgs physics at the LHC", Dec. (2020), PhD thesis undersupervision of M. Gallinaro, Instituto Superior Técnico Universidade de Lisboa
 1. Sole author of: G. Strong, "On the impact of selected modern deep-learning techniques to the performance and celerity of classification models in an experimental high-energy physics use case", Sep. (2020), [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
