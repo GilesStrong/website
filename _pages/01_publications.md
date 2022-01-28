@@ -12,11 +12,11 @@ search_exclude: false
 
 # Selected papers
 
-1. Joint author, and researcher for: h→𝜏𝜏 and hh→bb𝜏𝜏@HL-LHC sections of: A. Stakia, T. Dorigo, et al. (23 additional authors inc. G. Strong), "Advanced Multi-Variate Analysis Methods for New Physics Searches at the Large Hadron Collider", Nov. (2021), Reviews in Physics 7:100063.
-1. Second author & main researcher of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, “Calorimetric Measurement of Multi-TeV Muons via Deep Regression”, July (2021), [arXiv:2107.02119 [physics.ins-det]](https://arxiv.org/abs/2107.02119) - accepted for publication in European Physics Journal C.
+1. Second author & main researcher of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, “Calorimetric Measurement of Multi-TeV Muons via Deep Regression”, January (2022), [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
+1. Joint author, and researcher for: h→𝜏𝜏 and hh→bb𝜏𝜏@HL-LHC sections of: A. Stakia, T. Dorigo, et al. (23 additional authors inc. G. Strong), "Advanced Multi-Variate Analysis Methods for New Physics Searches at the Large Hadron Collider", Nov. (2021), [Reviews in Physics 7:100063.](https://www.sciencedirect.com/science/article/pii/S2405428321000095)
 1. Minor author of: T. Dorigo et al. (5 additional authors inc. G. Strong), “RanBox: Anomaly Detection in the Copula Space”, June (2021), [arXiv:2106.05747 [physics.data-an]](https://arxiv.org/abs/2106.05747) - preprint submitted to Computer Physics Communications.
 1. Member author of: MODE Collaboration, "Toward Machine Learning Optimization of Experimental Design", Mar. (2021), [Nuclear Physics News, 31:1, 25-28](https://www.tandfonline.com/doi/full/10.1080/10619127.2021.1881364)
-1. Sole author of: G. Strong, "Deep learning methods applied to Higgs physics at the LHC", Dec. (2020), PhD thesis undersupervision of M. Gallinaro, Instituto Superior Técnico Universidade de Lisboa
+1. Sole author of: G. Strong, "Deep learning methods applied to Higgs physics at the LHC", Dec. (2020), PhD thesis under supervision of M. Gallinaro, Instituto Superior Técnico Universidade de Lisboa, [CMS-TS-2021-024 ; CERN-THESIS-2021-211](https://cds.cern.ch/record/2791460)
 1. Sole author of: G. Strong, "On the impact of selected modern deep-learning techniques to the performance and celerity of classification models in an experimental high-energy physics use case", Sep. (2020), [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
 1. Researcher for: T. Dorigo, J. Kieseler, L. Layer, G. Strong, "Muon Energy Measurement from Radiative Losses in a Calorimeter for a Collider Detector", Aug. (2020), [arXiv:2008.10958 [physics.ins-det]](https://arxiv.org/abs/2008.10958)
 1. Contributing presenter for: M. Gallinaro, et al. "Beyond the Standard Model in Vector Boson Scattering Signatures", May (2020), [arXiv:2005.09889 [hep-ph]](https://arxiv.org/abs/2005.09889)
@@ -34,11 +34,17 @@ search_exclude: false
 
 # Software
 
-1. Core developer of MODE collaboration, "TomOpt: Differential optimisation for muon tomography"
-1. Sole developer of G. Strong, "PyTorch INFERNO", Mar. (2021), [Zenodo](10.5281/zenodo.4597140), [https://github.com/GilesStrong/pytorch_inferno](https://github.com/GilesStrong/pytorch_inferno)
+1. Core developer of: MODE collaboration, "TomOpt: Differential optimisation for muon tomography"
+1. Main developer of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, "Public version of code used in "Calorimetric Measurement of Multi-TeV Muons via Deep Regression"", [Zenodo](https://doi.org/10.5281/zenodo.5167014). Supporting code for [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
+1. Sole developer of: G. Strong, "PyTorch INFERNO", Mar. (2021), [Zenodo](10.5281/zenodo.4597140), [https://github.com/GilesStrong/pytorch_inferno](https://github.com/GilesStrong/pytorch_inferno)
 1. Sole developer of: G. Strong, "HiggsML Lumin", Apr. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3754669), [https://github.com/GilesStrong/HiggsML_Lumin](https://github.com/GilesStrong/HiggsML_Lumin). Supporting code for [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
 1. Sole developer of: G. Strong, "PyTorch Tutorial", Feb. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3688666), [https://github.com/GilesStrong/PyTorch_Tutorial](https://github.com/GilesStrong/PyTorch_Tutorial)
 1. Core developer of: G. Strong, "LUMIN", Mar. (2019), [Zenodo](https://doi.org/10.5281/zenodo.2601857), [https://github.com/GilesStrong/lumin](https://github.com/GilesStrong/lumin)
 1. Sole developer of: G. Strong, "LIP Data Science School in (astro)particle physics and cosmology, Braga 2019: Keras Tutorial", Mar. 2019, [Zenodo](https://doi.org/10.5281/zenodo.2601837), [https://github.com/GilesStrong/LIP_DSS_Keras_Tutorial_2019](https://github.com/GilesStrong/LIP_DSS_Keras_Tutorial_2019)
 1. Sole develoepr of: G. Strong, "Project repository for IST QCD course, 2018 - Static-Quark Potential Calculations", Dec. (2018), [Zenodo](https://doi.org/10.5281%2Fzenodo.2601809), [https://github.com/GilesStrong/LatticeQCD_IST2018](https://github.com/GilesStrong/LatticeQCD_IST2018)
 1. Sole developer of: G. Strong, "Hyper-Parameter Optimisation Part I", [Zenodo](https://doi.org/10.5281%2Fzenodo.2601827), [https://github.com/GilesStrong/Smith_HyperParams1_Demo](https://github.com/GilesStrong/Smith_HyperParams1_Demo)
+
+# Datasets
+
+1. Contributor to: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, "Preprocessed Dataset for ``Calorimetric Measurement of Multi-TeV Muons via Deep Regression", [Zenodo](https://doi.org/10.5281/zenodo.5163816). Supporting data for [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
+1. Creator of: G. Strong, "Di-Higgs ML Tutorial data", [Zenodo](https://doi.org/10.5281/zenodo.3543637)

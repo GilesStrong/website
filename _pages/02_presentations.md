@@ -16,6 +16,7 @@ search_exclude: false
 
 # Seminars & tutorials
 
+1. TomOpt: Differential Muon Tomography Optimisation, G. Strong (speaker), T. Dorigo, [SciComp Seminar Series TU Kaiserslautern](https://www.scicomp.uni-kl.de/events/?event_id1=2972) - Online, 02/12/21
 1. Graph neural networks in HEP, R. Pedro (speaker) & G. Strong (speaker), LIP competency centre for Simulation and Big Data meeting (10.5281/zenodo.5090549) - Online, 12/07/21.
 1. TomOpt: Differential Muon Tomography Optimisation, G. Strong & T. Dorigo, MODE meeting - Online, 07/06/21.
 1. Inferno As A Drop-in* Loss Function, G. Strong, [gradHEP Campfire #2](https://indico.cern.ch/event/1005490/#3-inferno-as-a-drop-in-loss-fu) - Online, 12/02/21.
