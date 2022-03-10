@@ -12,6 +12,7 @@ search_exclude: false
 
 # Selected papers
 
+1. Joint author, and researcher for DNN signal classification of: CMS Collaboration “Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two τ leptons in proton-proton collisions at √s=13 TeV”, March (2022), [CMS-PAS-HIG-20-010](https://cds.cern.ch/record/2803419)
 1. Contributing researcher and minor author of: T. Dorigo, S. Guglielmini, J. Kieseler, L. Layer, G. Strong, “Deep Regression of Muon Energy with a K-Nearest Neighbor Algorithm”, March (2022), [arXiv:2203.02841 [hep-ex]](https://arxiv.org/abs/2203.02841)
 1. Second author & main researcher of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, “Calorimetric Measurement of Multi-TeV Muons via Deep Regression”, January (2022), [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
 1. Joint author, and researcher for: h→𝜏𝜏 and hh→bb𝜏𝜏@HL-LHC sections of: A. Stakia, T. Dorigo, et al. (23 additional authors inc. G. Strong), "Advanced Multi-Variate Analysis Methods for New Physics Searches at the Large Hadron Collider", Nov. (2021), [Reviews in Physics 7:100063.](https://www.sciencedirect.com/science/article/pii/S2405428321000095)
