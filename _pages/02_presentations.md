@@ -36,6 +36,7 @@ search_exclude: false
 
 # Workshops & meetings
 
+1. Differential programming for detector optimisation, G. Strong on behalf of MODE Collaboration, [Analysis Ecosystems Workshop II](https://indico.cern.ch/event/1125222/timetable/?view=standard#47-differentiable-design-optim) - Paris/Online, France, 23/05/22
 1. Two-level graphs for muon-tomography inference, G. Strong, [5th IML Workshop](https://indico.cern.ch/event/1078970/timetable/?view=standard#42-two-level-graphs-for-muon-t) - CERN/Online, 13/05/22
 1. TomOpt: PyTorch-based Differential Muon Tomography Optimisation, G. Strong (speaker), T. Dorigo, [24th European Automatic Differentiation Workshop](http://www.autodiff.org/?module=Workshops&submenu=EuroAD%2F24%2Fmain) - Online, 03/11/21
 1. TomOpt: PyTorch-based Differential Muon Tomography Optimisation, G. Strong (speaker), T. Dorigo, [First MODE Workshop on Differentiable Programming](https://indico.cern.ch/event/1022938/timetable/?view=standard#7-tomopt-pytorch-based-differe) - Université Catholique de Louvain/Online, Belgium, 06/09/21
