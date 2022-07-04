@@ -12,6 +12,7 @@ search_exclude: false
 
 # Selected papers
 
+1. Researcher for $hh\rightarrow bb\tau\tau$ measurement in: CMS Collaboration "A portrait of the Higgs boson by the CMS experiment ten years after the discovery", July (2022), [Nature](https://www.nature.com/articles/s41586-022-04892-x)
 1. Joint author, and researcher for DNN signal classification of: CMS Collaboration “Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two τ leptons in proton-proton collisions at √s=13 TeV”, June (2022), [arXiv:2206.09401 [hep-ex]](https://arxiv.org/abs/2206.09401), submitted to Physics Letters B
 1. Joint author of: A. Giammanco et al. (6 authors including G. Strong) "Intelligent Design for Particle Detectors", June(2022), [CERN EP Newsletter](https://ep-news.web.cern.ch/content/intelligent-design-particle-detectors)
 1. Author of TomOpt section of: T. Dorigo et al. (37 authors including G. Strong) “Toward the End-to-End Optimization of Particle Physics Instruments with Differentiable Programming: a White Paper”, March (2022), [arXiv:2203.13818 [physics.ins-det]](https://arxiv.org/abs/2203.13818)
@@ -33,8 +34,8 @@ search_exclude: false
 1. Contributed to the alignment and calibration studies for: CMS Collaboration and TOTEM Collaboration, “Observation of proton-tagged, central (semi)exclusive production of high-mass lepton pairs in pp collisions at 13 TeV with the CMS-TOTEM precision proton spectrometer,” [JHEP 07, 153 (2018)](https://link.springer.com/article/10.1007/JHEP07(2018)153)
 1. Contributed to central discussions of software, hardware, and tool requirements: Albertsson et al., “Machine Learning in High Energy Physics Community White Paper”, Jul. (2018), [arXiv:1807.02876 [physics.comp-ph]](https://arxiv.org/abs/1807.02876)
 1. Joint main author, and researcher for hh→bb𝜏𝜏 section of: AMVA4NewPhysics, “Multivariate Analysis Methods for Higgs Boson Searches At The Large Hadron Collider”, Feb. (2017), [AMVA4NewPhysics D1.1](https://userswww.pd.infn.it/~dorigo/wp1-d1.pdf)
-1. Sole author of: G. Strong, "Gluon splitting to b-quark pairs in proton-proton collisions at √s=8 TeV with ATLAS", Sep. (2015), Master's thesis undersupervision of A. Robson, A. Buckley, G Hesketh, & J McFayden, University of Glasgow, [glathesis:2015-6680](http://theses.gla.ac.uk/6680/)
-1. Sole author of: G. Strong, "Top-tagger optimisation and comparison", Apr. (2013), Master's thesis undersupervision of F. Krauss, Durham University
+1. Sole author of: G. Strong, "Gluon splitting to b-quark pairs in proton-proton collisions at √s=8 TeV with ATLAS", Sep. (2015), Master's thesis under supervision of A. Robson, A. Buckley, G Hesketh, & J McFayden, University of Glasgow, [glathesis:2015-6680](http://theses.gla.ac.uk/6680/)
+1. Sole author of: G. Strong, "Top-tagger optimisation and comparison", Apr. (2013), Master's thesis under supervision of F. Krauss, Durham University
 
 # Software
 
