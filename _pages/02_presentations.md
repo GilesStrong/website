@@ -7,6 +7,7 @@ search_exclude: false
 
 # Conferences
 
+1. TomOpt: Differentiable Optimisation of Muon-Tomography Detectors, G. Strong et al. (12 authors),  [International Conference on High Energy Physics 2022](https://agenda.infn.it/event/28874/timetable/?view=standard#499-tomopt-differentiable-opti) - Bologna/Online, Italy, 09/07/22
 1. Muon energy regression hackathon challenge, T. Dorigo, L. Layer, G. Strong, [Quarks to Cosmos with AI](https://events.mcs.cmu.edu/qtc2021/) - Online/Carnegie Mellon University, USA, 12/07/21-16/07/21.
     - Jointly involved in: organisation & planning, baseline code, scoring, introductory & technical seminars 
 1. Improvements to ML for Searches at the LHC, G. Strong, [International Conference on High Energy Physics 2020](https://indico.cern.ch/event/868940/timetable/?view=standard#695-on-the-impact-of-modern-de) - Online, 28/07/20.
