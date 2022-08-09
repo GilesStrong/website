@@ -7,6 +7,7 @@ search_exclude: false
 
 # Conferences
 
+1. TomOpt: Differentiable Optimisation of Muon-Tomography Detectors, G. Strong et al. (12 authors),  [XVth Conference for Quark Confinement and the Hadron Spectrum](https://indico.uis.no/event/2/contributions/507/) - Stavanger/Online, Norway, 04/08/22
 1. TomOpt: Differentiable Optimisation of Muon-Tomography Detectors, G. Strong et al. (12 authors),  [International Conference on High Energy Physics 2022](https://agenda.infn.it/event/28874/timetable/?view=standard#499-tomopt-differentiable-opti) - Bologna/Online, Italy, 09/07/22
 1. Muon energy regression hackathon challenge, T. Dorigo, L. Layer, G. Strong, [Quarks to Cosmos with AI](https://events.mcs.cmu.edu/qtc2021/) - Online/Carnegie Mellon University, USA, 12/07/21-16/07/21.
     - Jointly involved in: organisation & planning, baseline code, scoring, introductory & technical seminars 
