@@ -53,5 +53,6 @@ search_exclude: false
 
 # Datasets
 
+1. Creator of: G. Strong et al. (12 authors), "Dataset for the challenge at the 2nd MODE workshop on differentiable programming 2022", [Zenodo](https://doi.org/10.5281/zenodo.6866890)
 1. Contributor to: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, "Preprocessed Dataset for ``Calorimetric Measurement of Multi-TeV Muons via Deep Regression", [Zenodo](https://doi.org/10.5281/zenodo.5163816). Supporting data for [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
 1. Creator of: G. Strong, "Di-Higgs ML Tutorial data", [Zenodo](https://doi.org/10.5281/zenodo.3543637)
