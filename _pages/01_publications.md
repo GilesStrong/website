@@ -12,9 +12,10 @@ search_exclude: false
 
 # Selected papers
 
+1. Coauthor of: G. A. Stewart et al. (42+ authors inc. G. Strong) “HSF IRIS-HEP Second Analysis Ecosystems Workshop Report”, Aug. (2022), [Zenodo](https://doi.org/10.5281/zenodo.7003962)
 1. Researcher for $hh\rightarrow bb\tau\tau$ measurement in: CMS Collaboration "A portrait of the Higgs boson by the CMS experiment ten years after the discovery", July (2022), [Nature](https://www.nature.com/articles/s41586-022-04892-x)
 1. Joint author, and researcher for DNN signal classification of: CMS Collaboration “Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two τ leptons in proton-proton collisions at √s=13 TeV”, June (2022), [arXiv:2206.09401 [hep-ex]](https://arxiv.org/abs/2206.09401), submitted to Physics Letters B
-1. Joint author of: A. Giammanco et al. (6 authors including G. Strong) "Intelligent Design for Particle Detectors", June(2022), [CERN EP Newsletter](https://ep-news.web.cern.ch/content/intelligent-design-particle-detectors)
+1. Joint author of: A. Giammanco et al. (6 authors including G. Strong) "Intelligent Design for Particle Detectors", June (2022), [CERN EP Newsletter](https://ep-news.web.cern.ch/content/intelligent-design-particle-detectors)
 1. Author of TomOpt section of: T. Dorigo et al. (37 authors including G. Strong) “Toward the End-to-End Optimization of Particle Physics Instruments with Differentiable Programming: a White Paper”, March (2022), [arXiv:2203.13818 [physics.ins-det]](https://arxiv.org/abs/2203.13818)
 1. Contributing researcher and minor author of: T. Dorigo, S. Guglielmini, J. Kieseler, L. Layer, G. Strong, “Deep Regression of Muon Energy with a K-Nearest Neighbor Algorithm”, March (2022), [arXiv:2203.02841 [hep-ex]](https://arxiv.org/abs/2203.02841)
 1. Second author & main researcher of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, “Calorimetric Measurement of Multi-TeV Muons via Deep Regression”, January (2022), [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
