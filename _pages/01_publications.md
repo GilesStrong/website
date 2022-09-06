@@ -39,9 +39,11 @@ search_exclude: false
 
 # Software
 
+1. Sole developer of: G. Strong, "MODE '22 workshop data challenge - Giles Solution", Sep. (2022), [Zenodo](https://doi.org/10.5281/zenodo.7050684), [https://github.com/GilesStrong/mode_diffprog_22_challenge_giles_solution](https://github.com/GilesStrong/mode_diffprog_22_challenge_giles_solution)
+1. Sole developer of: G. Strong, "Data challenge for the 2nd MODE workshop on differentiable programming", Aug. (2022), [Zenodo](https://doi.org/10.5281/zenodo.6947862), [https://github.com/GilesStrong/mode_diffprog_22_challenge](https://github.com/GilesStrong/mode_diffprog_22_challenge)
 1. Core developer of: MODE collaboration, "TomOpt: Differential optimisation for muon tomography"
 1. Main developer of: J Kieseler, G. Strong, F. Chiandotto, T. Dorigo, & L. Layer, "Public version of code used in "Calorimetric Measurement of Multi-TeV Muons via Deep Regression"", [Zenodo](https://doi.org/10.5281/zenodo.5167014). Supporting code for [The European Physical Journal C 82:79](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5)
-1. Sole developer of: G. Strong, "PyTorch INFERNO", Mar. (2021), [Zenodo](10.5281/zenodo.4597140), [https://github.com/GilesStrong/pytorch_inferno](https://github.com/GilesStrong/pytorch_inferno)
+1. Sole developer of: G. Strong, "PyTorch INFERNO", Mar. (2021), [Zenodo](https://doi.org/10.5281/zenodo.4597140), [https://github.com/GilesStrong/pytorch_inferno](https://github.com/GilesStrong/pytorch_inferno)
 1. Sole developer of: G. Strong, "HiggsML Lumin", Apr. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3754669), [https://github.com/GilesStrong/HiggsML_Lumin](https://github.com/GilesStrong/HiggsML_Lumin). Supporting code for [Mach. Learn.: Sci. Technol. 1 045006](https://doi.org/10.1088/2632-2153/ab983a)
 1. Sole developer of: G. Strong, "PyTorch Tutorial", Feb. (2020), [Zenodo](https://doi.org/10.5281/ZENODO.3688666), [https://github.com/GilesStrong/PyTorch_Tutorial](https://github.com/GilesStrong/PyTorch_Tutorial)
 1. Core developer of: G. Strong, "LUMIN", Mar. (2019), [Zenodo](https://doi.org/10.5281/zenodo.2601857), [https://github.com/GilesStrong/lumin](https://github.com/GilesStrong/lumin)
