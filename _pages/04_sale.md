@@ -27,14 +27,14 @@ For full-size images, please right-click and "Open image in new tab".
 
 ## Home and kitchen
 
-### Honeywell HYF290E4 Quietset tower fan
+<!-- ### Honeywell HYF290E4 Quietset tower fan
 
 - Compact and efficient fan
 - 2 summers old
 - Good condition
-- £20/€20 (€82 new)
+- £20/€20 (€82 new) -->
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/fan.jpeg){: width="20%"} 
+<!-- ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fan.jpeg){: width="20%"}  -->
 
 <!-- ### Toshiba MW2-AC25T 4-in-1 Combined Grill Microwave Oven with Convection
 
@@ -293,7 +293,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-1.JPG){: width="20%"} 
 
-### MXR M80 Bass DI+
+<!-- ### MXR M80 Bass DI+
 
 - Perfect condition
 - Preamp and distortion bass pedal
@@ -303,7 +303,7 @@ For full-size images, please right-click and "Open image in new tab".
 - DI cable included
 - £50/€60 (~€200 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-0.JPEG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-2.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-0.JPEG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/m80/m80-2.JPG){: width="20%"}  -->
 
 ### Two Notes Torpedo Live 100W loadbox and digital amp/speaker/mic/room simulator
 
