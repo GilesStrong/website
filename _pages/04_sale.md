@@ -36,7 +36,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fan.jpeg){: width="20%"} 
 
-### Toshiba MW2-AC25T 4-in-1 Combined Grill Microwave Oven with Convection
+<!-- ### Toshiba MW2-AC25T 4-in-1 Combined Grill Microwave Oven with Convection
 
 - 25 L, enamelled Cavity, Turntable Position Memory
 - 1100W Grill, 2100W Convection oven, 900W microwave
@@ -44,9 +44,9 @@ For full-size images, please right-click and "Open image in new tab".
 - 2 years old
 - £35/€40 (€160 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-3.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/toshiba/tos-3.JPG){: width="20%"}  -->
 
-### Noblechairs Epic Gaming Chair
+<!-- ### Noblechairs Epic Gaming Chair
 
 - Synthetic leather
 - [Details](https://www.noblechairs.com/en-us/epic-series/gaming-chair-pu-leather)
@@ -55,7 +55,7 @@ For full-size images, please right-click and "Open image in new tab".
 - 2 years old
 - £45/€50 (€360 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-1.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-1.JPG){: width="20%"}  -->
 
 ### Midea Eco 29 portable air-conditioner
 
@@ -114,14 +114,14 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-3.JPG){: width="20%"}  -->
 
-### Beats Solo3 wireless headphones
+<!-- ### Beats Solo3 wireless headphones
 
 - Compact and foldable on-ear headphones
 - Quite bassy, but good for the right kinds of music
 - Softcase and original cord with mic and controls
 - £25/€30 (€240 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/beats.jpeg){: width="20%"}
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/beats.jpeg){: width="20%"} -->
 
 ### LG 2GN950 27", 4K display
 
@@ -261,21 +261,21 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/pups.jpeg){: width="20%"} 
 
-### TC Electronic Flashback digital delay and looper Pedal
+<!-- ### TC Electronic Flashback digital delay and looper Pedal
 
 - Perfect condition
 - [Details](https://www.tcelectronic.com/product.html?modelCode=P0C80)
 - £20/€20
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/flashback.jpeg){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/flashback.jpeg){: width="20%"}  -->
 
-### Akai MPK Mini MK 2 Keyboard Controller
+<!-- ### Akai MPK Mini MK 2 Keyboard Controller
 
 - Perfect condition
 - [Details](https://www.akaipro.com/mpk-mini-mkii)
 - £20/€20
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/akai.jpeg){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/akai.jpeg){: width="20%"}  -->
 
 ### Ebow Plus
 
