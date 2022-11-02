@@ -166,7 +166,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ### Chapman MLB-1 bass
 
-- Passive splitable pickups
+- Passive splitable soapbar pickups
 - Bubinga body (natural), bubinga veneer top (open-pore), 5-piece maple/wenge through neck (satin), wenge fretboard (24 frets)
 - Natural finish
 - Made in Korea
