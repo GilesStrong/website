@@ -17,15 +17,13 @@ Smaller items can be delivered by hand within a reasonable distance. Worldwide s
 Any interest or questions: Please email me at giles.strong (@) outlook.com.
 
 Items fall into 5 categories: home & kitchen, books, electronics, musical instruments, musical equipment.
-For full-size images, right-click and "Open image in new tab".
+For full-size images, please right-click and "Open image in new tab".
 
 - [Home and kitchen]({{ site.baseurl }}/stuff_for_sale#home-and-kitchen)
 - [Books]({{ site.baseurl }}/stuff_for_sale#books)
 - [Electronics]({{ site.baseurl }}/stuff_for_sale#electronics)
 - [Musical instruments]({{ site.baseurl }}/stuff_for_sale#musical-instruments)
 - [Musical equipment]({{ site.baseurl }}/stuff_for_sale#musical-equipment)
-
-
 
 ## Home and kitchen
 
