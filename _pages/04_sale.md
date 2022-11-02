@@ -135,7 +135,7 @@ For full-size images, please right-click and "Open image in new tab".
 - EU/UK plug
 - £350/€400 (€700-900 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-1.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/lg/lg-2.jpeg){: width="20%"} 
 
 ## Musical instruments
 
