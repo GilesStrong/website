@@ -280,7 +280,7 @@ For full-size images, please right-click and "Open image in new tab".
 ### Ebow Plus
 
 - Perfect condition
-- Resonates strings rather than pucks them to imitate violins
+- Resonates strings rather than plucks them to imitate violins
 - [Details](https://ebow.com/)
 - £20/€20
 
