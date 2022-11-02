@@ -101,7 +101,7 @@ For full-size images, please right-click and "Open image in new tab".
 - Guitar cable x 2
 - Guitar patch cable x 1
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/cables.jpeg){: width="20%"} 
+<!-- ![]({{ site.baseurl }}/images/posts/stuff-for-sale/cables.jpeg){: width="20%"} 
 
 ### Samsung S24D590PL 24", 1920x1080 display
 
@@ -112,7 +112,7 @@ For full-size images, please right-click and "Open image in new tab".
 - UK or EU plug
 - £10/€10 
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-3.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/s24/s24-3.JPG){: width="20%"}  -->
 
 ### Beats Solo3 wireless headphones
 
@@ -238,12 +238,12 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/ep3.jpeg){: width="20%"} 
 
-### Vox V845 Wah Pedal
+<!-- ### Vox V845 Wah Pedal
 
 - Perfect condition
 - £10/€10
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/wah.jpeg){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/wah.jpeg){: width="20%"}  -->
 
 ### Digitech Hardwire TL-2 Metal Distortion Pedal
 
