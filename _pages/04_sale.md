@@ -98,7 +98,7 @@ For full-size images, please right-click and "Open image in new tab".
 - USB to micro usb x 2
 - USB to mini usb x 2
 - USB to printer x 1
-- Guitar cable x 2
+- Guitar cable x 1
 - Guitar patch cable x 1
 
 <!-- ![]({{ site.baseurl }}/images/posts/stuff-for-sale/cables.jpeg){: width="20%"} 
@@ -164,7 +164,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-4.JPG){: width="20%"} 
 
-### Chapman MLB-1 bass
+<!-- ### Chapman MLB-1 bass
 
 - Passive splitable soapbar pickups
 - Bubinga body (natural), bubinga veneer top (open-pore), 5-piece maple/wenge through neck (satin), wenge fretboard (24 frets)
@@ -175,7 +175,7 @@ For full-size images, please right-click and "Open image in new tab".
 - Softcase
 - £200/€230 (£600 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-6.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-7.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-8.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-9.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-10.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-6.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-7.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-8.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-9.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/chapman/cha-10.JPG){: width="20%"}  -->
 
 ### Cort A5 Plus 5-string bass
 
