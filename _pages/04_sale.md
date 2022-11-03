@@ -57,7 +57,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/noble/nob-1.JPG){: width="20%"}  -->
 
-### Midea Eco 29 portable air-conditioner
+<!-- ### Midea Eco 29 portable air-conditioner
 
 - 3-modes: AC, fan, dehumidifier
 - 1 summer old
@@ -68,7 +68,7 @@ For full-size images, please right-click and "Open image in new tab".
 - [Details](https://www.midea.com/it/climate/portables/climatizzatore-portatile-mobile-eco-29)
 - £85/€100 (€300 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-2.JPEG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/ac/ac-2.JPEG){: width="20%"}  -->
 
 ## Books
 
@@ -76,11 +76,11 @@ For full-size images, please right-click and "Open image in new tab".
 - Krane, Introductory Nuclear Physics, hardback, £35/€40 
 - Grant and Philips, Electromagnetism, second edition, softback £20/€20
 - Levin, An Introductory to Quantum Theory, softback £45/€50 
-- Peskin and Schroeder, An Introduction to Quantum Field Theory, softback £25/€30
+<!-- - Peskin and Schroeder, An Introduction to Quantum Field Theory, softback £25/€30 -->
 - Sadler and Thorning, Understanding Pure Mathematics, softback £20/€20
 - Riley, Hobson and Bence, Mathematical Methods for Physics and Engineering, softback £35/€40
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/eisberg.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/krane.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/grant.JPG){: width="20%"}  ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/levin.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/peskin.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/sadler.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/riley.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/eisberg.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/krane.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/grant.JPG){: width="20%"}  ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/levin.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/sadler.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/books/riley.JPG){: width="20%"} 
 
 ## Electronics
 
@@ -286,12 +286,12 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/ebow.jpeg){: width="20%"} 
 
-### Gator Deluxe Extra Long 'Fit All' Electric Guitar Case
+<!-- ### Gator Deluxe Extra Long 'Fit All' Electric Guitar Case
 
 - Good condition
 - £30/€35
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-1.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gator/gat-1.JPG){: width="20%"}  -->
 
 <!-- ### MXR M80 Bass DI+
 
