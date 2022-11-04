@@ -139,7 +139,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ## Musical instruments
 
-### Schecter Damien Elite 7-string guitar
+<!-- ### Schecter Damien Elite 7-string guitar
 
 - EMG-81/85 active pickups
 - Mahogany body (gloss), arched flamed-maple top (gloss), 3-piece maple bolt-on neck (satin), rosewood fretboard (24 frets)
@@ -150,7 +150,7 @@ For full-size images, please right-click and "Open image in new tab".
 - Fret wear, hardware discolouration, slight scrape on left point
 - £100/€115 (£550 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-6.JPG){: width="20%"}
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-6.JPG){: width="20%"} -->
 
 ### Sire Marcus Miller V-7 fretless 5-string bass
 
