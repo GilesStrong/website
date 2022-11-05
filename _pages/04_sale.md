@@ -277,14 +277,14 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/akai.jpeg){: width="20%"}  -->
 
-### Ebow Plus
+<!-- ### Ebow Plus
 
 - Perfect condition
 - Resonates strings rather than plucks them to imitate violins
 - [Details](https://ebow.com/)
 - £20/€20
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/ebow.jpeg){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/ebow.jpeg){: width="20%"}  -->
 
 <!-- ### Gator Deluxe Extra Long 'Fit All' Electric Guitar Case
 
