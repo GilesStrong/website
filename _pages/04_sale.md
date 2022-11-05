@@ -152,7 +152,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/schecter/sch-6.JPG){: width="20%"} -->
 
-### Sire Marcus Miller V-7 fretless 5-string bass
+<!-- ### Sire Marcus Miller V-7 fretless 5-string bass
 
 - Marcus Super Jazz pickups with active pre-amp & 3-band EQ
 - Swamp ash body (gloss), bolt-on maple neck (gloss), maple fretboard (20 fret marks)
@@ -162,7 +162,7 @@ For full-size images, please right-click and "Open image in new tab".
 - Perfect condition
 - £150/€175 (€575 new)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-4.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/sire/sir-4.JPG){: width="20%"}  -->
 
 <!-- ### Chapman MLB-1 bass
 
@@ -204,7 +204,7 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-6.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/fender/fen-7.JPG){: width="20%"}
 
-### Gibson USA Les Paul Standard T 2017 
+<!-- ### Gibson USA Les Paul Standard T 2017 
 
 - Burstbucker Pro passive pickups
 - Weight-relieved mahogany body (lacquer gloss), AAA flamed-maple top (lacquer gloss), glue-on maple neck (polyester gloss), rosewood compound-radius fretboard (22 frets)
@@ -219,7 +219,7 @@ For full-size images, please right-click and "Open image in new tab".
 - I love this guitar, but daren't take it on a plane and I'd much rather have someone play this work of art than it sit in storage
 - £1700/€2000 (£1900 new (2017 model), 2022 models >£2000)
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-6.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-7.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-8.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-9.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-10.JPG){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-0.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-1.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-2.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-3.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-4.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-5.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-6.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-7.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-8.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-9.JPG){: width="20%"} ![]({{ site.baseurl }}/images/posts/stuff-for-sale/gibson/gib-10.JPG){: width="20%"}  -->
 
 ## Musical equipment
 
