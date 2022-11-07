@@ -252,14 +252,14 @@ For full-size images, please right-click and "Open image in new tab".
 
 ![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/tl2.jpeg){: width="20%"} 
 
-### Seymour Duncan TB-5 (bridge) & SH-1 (neck) passive pickups
+<!-- ### Seymour Duncan TB-5 (bridge) & SH-1 (neck) passive pickups
 
 - Good condition
 - TB-5 is tremolo-spaced
 - [TB-5 details](https://www.seymourduncan.com/single-product/duncan-custom), [SH-1 details](https://www.seymourduncan.com/single-product/59-model)
 - £20/€20 each
 
-![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/pups.jpeg){: width="20%"} 
+![]({{ site.baseurl }}/images/posts/stuff-for-sale/pedals/pups.jpeg){: width="20%"}  -->
 
 <!-- ### TC Electronic Flashback digital delay and looper Pedal
 
