@@ -8,12 +8,12 @@ jobs:
     steps:
 
     - name: Set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: 3.6
 
     - name: Copy Repository Contents
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
         
     - name: modify files
       run: |
