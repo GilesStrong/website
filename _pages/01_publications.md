@@ -12,6 +12,11 @@ search_exclude: false
 
 # Selected papers
 
+1. Lead author or: G. Strong et al., “TomOpt: Differential optimisation for task- and constraint-aware design of particle detectors in the context of muon tomography”, July (2024), [Mach. Learn.: Sci. Technol. 5 035002](https://iopscience.iop.org/article/10.1088/2632-2153/ad52e7), also published at NeurIPS: ML4PS 2023 as extended abstract
+1. Author of TomOpt section of: T. Dorigo et al. (30 authors including G. Strong) “Progress in End-to-End Optimization of Detectors for Fundamental Physics with Differentiable Programming”, June (2023), [arXiv:2310.05673 [physics.ins-det]](https://arxiv.org/abs/2310.05673)
+1. Joint author, and researcher for DNN signal classification of: CMS Collaboration, “Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two τ leptons in proton-proton collisions at √s=13 TeV”, June (2023), [Physics Letters B](https://www.sciencedirect.com/science/article/pii/S0370269322006657)
+1. Author of TomOpt section of: T. Dorigo et al. (37 authors including G. Strong) “Toward the End-to-End Optimization of Particle Physics Instruments with Differentiable Programming: a White Paper”, June (2023), [Reviews in Physics](https://www.sciencedirect.com/science/article/pii/S2405428323000047)
+1. Coauthor of: L. Layer, T. Dorigo, G. Strong, “Application of Inferno to a Top Pair Cross Section Measurement with CMS Open Data”, Jan. (2023), arXiv:2301.10358 [hep-ex] 
 1. Minor author of: T. Dorigo et al. (5 additional authors inc. G. Strong), “RanBox: Anomaly Detection in the Copula Space”, January (2023), [Journal of High Energy Physics](https://link.springer.com/article/10.1007/JHEP01(2023)008)
 1. Coauthor of: G. A. Stewart et al. (42+ authors inc. G. Strong) “HSF IRIS-HEP Second Analysis Ecosystems Workshop Report”, Aug. (2022), [Zenodo](https://doi.org/10.5281/zenodo.7003962)
 1. Researcher for $hh\rightarrow bb\tau\tau$ measurement in: CMS Collaboration "A portrait of the Higgs boson by the CMS experiment ten years after the discovery", July (2022), [Nature](https://www.nature.com/articles/s41586-022-04892-x)
@@ -40,6 +45,7 @@ search_exclude: false
 
 # Software
 
+1. Core developer of: G. Strong et al., “TomOpt”, Feb. (2024), [Zenodo](https://zenodo.org/records/10673885). [https://github.com/GilesStrong/tomopt]
 1. Sole developer of: G. Strong, "MODE '22 workshop data challenge - Giles Solution", Sep. (2022), [Zenodo](https://doi.org/10.5281/zenodo.7050684), [https://github.com/GilesStrong/mode_diffprog_22_challenge_giles_solution](https://github.com/GilesStrong/mode_diffprog_22_challenge_giles_solution)
 1. Sole developer of: G. Strong, "Data challenge for the 2nd MODE workshop on differentiable programming", Aug. (2022), [Zenodo](https://doi.org/10.5281/zenodo.6947862), [https://github.com/GilesStrong/mode_diffprog_22_challenge](https://github.com/GilesStrong/mode_diffprog_22_challenge)
 1. Core developer of: MODE collaboration, "TomOpt: Differential optimisation for muon tomography"

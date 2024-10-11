@@ -7,6 +7,9 @@ search_exclude: false
 
 # Conferences
 
+1. Differential optimisation for task- and constraint-aware design of particle detectors, G. Strong et al. (14 authors), Conference on Neural Information Processing Systems (NeurIPS): Machine Learning and the Physical Sciences - New Orleans/Online, USA
+    - [Extended abstract](https://ml4physicalsciences.github.io/2023/files/NeurIPS_ML4PS_2023_50.pdf)
+    - [Poster](https://nips.cc/media/PosterPDFs/NeurIPS%202023/76115.png)
 1. TomOpt: Differentiable Optimisation of Muon-Tomography Detectors, G. Strong et al. (12 authors),  [XVth Conference for Quark Confinement and the Hadron Spectrum](https://indico.uis.no/event/2/contributions/507/) - Stavanger/Online, Norway, 04/08/22
 1. TomOpt: Differentiable Optimisation of Muon-Tomography Detectors, G. Strong et al. (12 authors),  [International Conference on High Energy Physics 2022](https://agenda.infn.it/event/28874/timetable/?view=standard#499-tomopt-differentiable-opti) - Bologna/Online, Italy, 09/07/22
 1. Muon energy regression hackathon challenge, T. Dorigo, L. Layer, G. Strong, [Quarks to Cosmos with AI](https://events.mcs.cmu.edu/qtc2021/) - Online/Carnegie Mellon University, USA, 12/07/21-16/07/21.
@@ -38,6 +41,7 @@ search_exclude: false
 
 # Workshops & meetings
 
+1. From ML to Differentiable Programming, G. Strong, [aMUSE 2023 General Meeting](https://amuse.lnf.infn.it/2023-amuse-general-meeting/) - Invited speaker, Rome/Online, Italy, 06/06/23
 1. [Second MODE Workshop on Differentiable Programming](https://indico.cern.ch/event/1145124/) OAC conference centre, Greece (12-16/09/22):
     - Presentation: [TomOpt: Differentiable Optimisation of Muon-Tomography Detectors](https://indico.cern.ch/event/1145124/contributions/4983513/), G. Strong (speaker) et al. (12 authors)
     - [Roman-wall imaging with muon tomography](https://github.com/GilesStrong/mode_diffprog_22_challenge), data challenge organiser
