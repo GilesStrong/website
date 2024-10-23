@@ -8,6 +8,7 @@ search_exclude: false
 # Database links
 
 - Orcid: [0000-0002-4640-6108](https://orcid.org/0000-0002-4640-6108)
+- [Google Scholar](https://scholar.google.com/citations?user=_5-a4p4AAAAJ&hl=en) - This is a maintained list that excludes many collaboration papers that list me as an author
 - INSPIRE: [Giles Strong](https://inspirehep.net/authors/1439225) - Please note that this includes *all* publications that list me as an author; CMS Collaboration papers are signed by all members of the collaboration.
 
 # Selected papers
