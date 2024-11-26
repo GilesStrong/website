@@ -13,6 +13,7 @@ search_exclude: false
 
 # Selected papers
 
+1. Minor author of: Z. Zahara et al. (10 authors including G. Strong), “Optimisation of muon portals for border controls using TomOpt”, Nov. (2024), Proceedings of the MARESEC 2024, [10.5281/zenodo.14214372](https://zenodo.org/records/14214373)
 1. Lead author or: G. Strong et al., “TomOpt: Differential optimisation for task- and constraint-aware design of particle detectors in the context of muon tomography”, July (2024), [Mach. Learn.: Sci. Technol. 5 035002](https://iopscience.iop.org/article/10.1088/2632-2153/ad52e7), also published at NeurIPS: ML4PS 2023 as extended abstract
 1. Author of TomOpt section of: T. Dorigo et al. (30 authors including G. Strong) “Progress in End-to-End Optimization of Detectors for Fundamental Physics with Differentiable Programming”, June (2023), [arXiv:2310.05673 [physics.ins-det]](https://arxiv.org/abs/2310.05673)
 1. Joint author, and researcher for DNN signal classification of: CMS Collaboration, “Search for nonresonant Higgs boson pair production in final state with two bottom quarks and two τ leptons in proton-proton collisions at √s=13 TeV”, June (2023), [Physics Letters B](https://www.sciencedirect.com/science/article/pii/S0370269322006657)
