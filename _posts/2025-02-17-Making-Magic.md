@@ -10,7 +10,7 @@ search_exclude: false
 categories: [AI, LLMs, NLP, fun]
 ---
 
-<img src="../images/posts/2025-02-08/header.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2025-02-08/header.png" style="width:auto;height:512px" />
 
 Magic: The Gathering (MTG, Magic) is world-famous a game I have been playing since childhood. At its core, it is a collectible card game where players build decks of cards representing magical spells, creatures, and artifacts. The game is relatively easy to get started, but has a high skill ceiling due to the complexity of the interactions between cards. Because of this, the fun in playing comes not just from the game itself, but also from the deck-building process. New cards are continually released, and other cards "rotate out" of what is currently legal to play in the standard format. This means that the metagame is always changing, and players need to adapt their decks to stay competitive.
 
