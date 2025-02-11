@@ -126,7 +126,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h3"><a href="#baseline">Baseline</a></li>
 </ul>
 </li>
-<li class="toc-entry toc-h2"><a href="#design-though-process">Design though-process</a></li>
+<li class="toc-entry toc-h2"><a href="#design-thought-process">Design thought-process</a></li>
 <li class="toc-entry toc-h2"><a href="#current-analysis-of-the-deck">Current analysis of the deck</a></li>
 <li class="toc-entry toc-h2"><a href="#card-selection">Card selection</a>
 <ul>
@@ -142,7 +142,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#deck-mana-base-fixing">Deck mana-base fixing</a></li>
 <li class="toc-entry toc-h2"><a href="#deck-evaluation">Deck evaluation</a></li>
 <li class="toc-entry toc-h2"><a href="#conclusion">Conclusion</a></li>
-</ul><p><img src="/website/images/posts/2025-02-08/header.png" style="width:auto;height:512px"></p>
+</ul><p><img src="/website/images/posts/2025-02-08/header.png" style="width:auto;height:auto"></p>
 
 <p>Magic: The Gathering (MTG, Magic) is world-famous a game I have been playing since childhood. At its core, it is a collectible card game where players build decks of cards representing magical spells, creatures, and artifacts. The game is relatively easy to get started, but has a high skill ceiling due to the complexity of the interactions between cards. Because of this, the fun in playing comes not just from the game itself, but also from the deck-building process. New cards are continually released, and other cards “rotate out” of what is currently legal to play in the standard format. This means that the metagame is always changing, and players need to adapt their decks to stay competitive.</p>
 
@@ -203,8 +203,8 @@ window.onload = wrap_img;
 
 <p>To ChatGPT’s credit, it was able to generate a deck quickly, was able to explain its choices, and adapt to feedback. However, this was a very iterative process that required me to analyse the deck at each step.</p>
 
-<h2 id="design-though-process">
-<a class="anchor" href="#design-though-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design though-process</h2>
+<h2 id="design-thought-process">
+<a class="anchor" href="#design-thought-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design thought-process</h2>
 
 <p>I need to restrict the system to only be able to include cards that a) actually exist, and b) are legal in the standard format. This means that I need to have a database of all the standard-legal cards in the game, and a way to check if they are legal. However, there are currently about 3500 cards in standard at the moment, and feeding all of them into the system would be impractical: likely, the model will need to think through additions to the deck, in order to build strategies that are coherent, and including all the possible cards might add too much noise. Instead, I should give the system the ability to search for possible cards to add to the deck. By ensuring cards are only added from the database, I can then ensure that the deck is legal.</p>
 
