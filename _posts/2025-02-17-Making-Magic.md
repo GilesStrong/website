@@ -10,7 +10,7 @@ search_exclude: false
 categories: [AI, LLMs, NLP, fun]
 ---
 
-<img src="{{ site.baseurl }}/images/posts/2025-02-08/header.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2025-02-08/header.png" style="width:auto;height:auto" />
 
 Magic: The Gathering (MTG, Magic) is world-famous a game I have been playing since childhood. At its core, it is a collectible card game where players build decks of cards representing magical spells, creatures, and artifacts. The game is relatively easy to get started, but has a high skill ceiling due to the complexity of the interactions between cards. Because of this, the fun in playing comes not just from the game itself, but also from the deck-building process. New cards are continually released, and other cards "rotate out" of what is currently legal to play in the standard format. This means that the metagame is always changing, and players need to adapt their decks to stay competitive.
 
@@ -68,7 +68,7 @@ Additionally, the deck included cards that were not compatible with the strategy
 
 To ChatGPT's credit, it was able to generate a deck quickly, was able to explain its choices, and adapt to feedback. However, this was a very iterative process that required me to analyse the deck at each step.
 
-## Design though-process
+## Design thought-process
 
 I need to restrict the system to only be able to include cards that a) actually exist, and b) are legal in the standard format. This means that I need to have a database of all the standard-legal cards in the game, and a way to check if they are legal. However, there are currently about 3500 cards in standard at the moment, and feeding all of them into the system would be impractical: likely, the model will need to think through additions to the deck, in order to build strategies that are coherent, and including all the possible cards might add too much noise. Instead, I should give the system the ability to search for possible cards to add to the deck. By ensuring cards are only added from the database, I can then ensure that the deck is legal.
 
