@@ -55,7 +55,7 @@ In practicality, however, the density estimation directly in embedding spaces ca
 
 Using some pseudodata data, let's see the results of this approach. In the image below, both sub-images show the memories projected into 2D using UMAP. Each colour corresponds to a different cluster. The left sub-image shows the true class ID that the memories should be clustered to. The right sub-images shows the predicted cluster IDs after applying HDBSCAN. Points in dark blue (cluster ID "-1") are memories that are determined to be noise, according to HDBSCAN. Ideally, memories coming from the same class should be clustered together.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_clusters.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_clusters.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 By eye, we can see that HDBSCAN does a good job of clustering points within the same spatial region, identifies outliers, and adapts for differently shaped clusters. We can also see that even at the UMAP level, however, some points belonging to the same class, but are positioned close to one another, making it hard for them to be clustered together. It is also hard to judge just how well the clustering process performs.
 
@@ -86,7 +86,7 @@ As a high-energy particle-physicist I've encountered a similar phenomenon before
 How, then, can we use particle colliders to test our theories if we cannot directly measure the particles that our theories are so dependent on? The key is to introduce the phenomenological concept of *jets* -- cluster the energy deposits recorded by the detector, and treat them as approximations of the partons that they originated from. 
 The image below (courtesy of ATLAS) shows an example of a jet constructed from a collision at the ATLAS detector at CERN. The blue and green cones represent the four jets that were reconstructed from the energy deposits in the detector.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/jet_example.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/jet_example.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 The type of algorithm used here is based on *sequential recombination*: energy deposits in the detector are iteratively recombined together, based on certain rules, until stop conditions are met. The recombination rules are based on factors such as separation between deposit pairs, and their energy. Sequential recombination algorithms are designed to be *collinear safe* and *infrared safe*. Basically this means that if a particle splits into two nearly parallel particles, then the algorithm should recombine them into a single jet. Similarly, if the particles radiate small amounts of energy, the resulting deposits should not significantly affect the reconstruction of the resulting jet, and should not seed jets of their own.
 
@@ -104,7 +104,7 @@ Let's extend this to an embedding-based clustering algorithm. We can work in the
 
 Performing a similar optimisation on this C/A-inspired algorithm, I found that it can achieve a better recall than HDBSCAN, at about the same precision level. C/A also compares favourably to HDBSCAN in terms of other metrics, too (for all metrics, higher is better).
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 Optimisation of C/A resulted in using t-SNE for dimensionality reduction, with 2 dimensions. A very slight cut on cosine similarity of 0.03 was used, but likely not a significant factor and could be ignored.
 
@@ -114,7 +114,7 @@ Let's extend the memory system, now, and consider how not all memories may be eq
 
 To begin, I'll introduce weighted versions of the previous metrics, and analyse the performance of the previously optimised algorithms on weighted pseudodata.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca_unweighted_vs_weighted.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca_unweighted_vs_weighted.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 Whilst performance stays generally consistent between weighted and unweighted metric pairs, across the board we can see a very slight systematic underperformance on the weighted data. Certainly not catastrophic, but maybe we can try to better account for the importance during the optimisation and algorithm itself.
 
@@ -126,7 +126,7 @@ For C/A, we can introduce a weighted version of the algorithm: the simple change
 
 For the purpose of optimisation, I initially scale all weights to be between 0 and 1.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca_weighted.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/hdbscan_vs_ca_weighted.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 Alas, while the weighted optimisation of HDBSCAN results in a slight improvement on the weighted metrics, the weighted optimisation of C/A completely fails to generalise to validation data. Why is that?
 
@@ -142,25 +142,25 @@ Where *k_t* is the transverse momentum of the point, *delta_ij* is the distance 
 
 The image below ([source](https://iopscience.iop.org/article/10.1088/1742-6596/645/1/012008)) compares the effect of different jet clustering algorithms, in terms of their resulting shapes.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/jet_comparison.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/jet_comparison.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 
 For our memory clustering case, we can use the memory importances as the transverse momentum. This allows the algorithm to also consider the importances when selecting combination candidates, rather than only being sensitive to it after the combination. For the memory-clustering variant, I deviate from the standard inclusive jet formulation by dropping the beam-distance removal step, *d_iB*. This deliberately biases the algorithm toward continued recombination and larger clusters, which better matches my maintenance-agent use case.
 
 Let's run optimisations using anti-kt (*p=-1*), and a general sequential recombination, in which *p* itself is an optimisable parameter.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/seqrec_comparison_weighted.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/seqrec_comparison_weighted.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 Allowing the importance weight to enter the candidate consideration allows both anti-kt and the generalised sequential recombination algorithms to generalise to validation data, without suffering the catastrophic failure seen in weighted C/A. Anti-kt itself appears to underperform, compared to unweighted C/A, however letting *p* float, allows the generalised sequential recombination algorithm to reach a very nice weighted B-cubed recall of 0.85, for a weighted B-cubed precision of 0.3. The optimal *p* value was found to be very low, at -1.69, which means that the algorithm is very sensitive to the memory importances, and less sensitive to their distance in the coordinate space (UMAP dim=3). A relatively large *R* parameter of 1.2 allows points to be quite far away from each other, and still be clustered together, however this is balanced by a moderate cosine similarity cut of 0.26.
 
 Below is an example clustering using the optimised sequential recombination algorithm. Certainly it is very heavy handed in terms of over clustering the data, reducing true number of classes from 20 down to 5 clusters. However, we can see that the true classes are somewhat intermingled, making perfect clustering very hard. Instead, we get what we asked for: close on 25% precision, with a very high recall. N.B. In the plot I show the first two dimensions of the 3D clustering space.
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/seq_rec_clusters.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/seq_rec_clusters.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 
 ## Conclusion
 
-<img src="{{ site.baseurl }}/images/posts/2026-05-16/weighted_summary_comparison.png" style="width:auto;height:512px" />
+<img src="{{ site.baseurl }}/images/posts/2026-05-16/weighted_summary_comparison.png" style="max-height:512px;max-width:100%;height:auto;" />
 
 Comparing all of the optimised algorithms together, we can see that on these pseudo-data experiments, sequential recombination can improve over my HDBSCAN baseline, especially if importance weights are considered for the memories. Some form of dimensionality reduction is preferable, and in my testing I generally found that either t-SNE or UMAP performed well.
 
