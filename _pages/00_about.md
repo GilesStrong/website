@@ -6,9 +6,11 @@ permalink: /about/
 
 ![]({{ site.baseurl }}/images/posts/intro/me.jpeg){: width="25%" align="right"}
 
-Hello and welcome! My name is Giles!
+## Hello and welcome! 👋
 
-I'm a doctor of physics, and a researcher specialising in **AI and automated design**. I have almost **nine years experience in deep learning** and **differentiable programming**, and its application to **cutting edge experiments and problems**.
+My name is Giles!
+
+I'm a doctor of physics, and a research-engineer specialising in **AI/ML/DL and automated design**. I have **ten years experience in deep learning** and **differentiable programming**, and its application to **cutting edge experiments and problems**.
 
 The majority of this experience has been gained in the field of high-energy physics, in which I was an active member of the European Centre for Nuclear Research (**CERN**) for ten years. During this time I worked on a variety of projects centred around the application of **neural networks to statistical data-analysis**. This included studying the [properties of the Higgs boson](https://www.sciencedirect.com/science/article/pii/S0370269322006657), developing original, high-performance algorithms for [**enhancing signal-to-noise ratios**](https://link.springer.com/article/10.1140/epjc/s10052-022-09993-5), developing domain-specific deep-learning packages ([LUMIN](https://lumin.readthedocs.io/), [PyTorch_Inferno](https://gilesstrong.github.io/pytorch_inferno/)), and producing [recommendation reports for future experiment constructions](https://cds.cern.ch/record/2667167). 
 
@@ -21,6 +23,7 @@ This technique was successfully demonstrated in the context of **muon-tomography
 Following three years of post-doctoral research, I moved into industry, working for Tokyo-based **deep-tech startups** specialising in the application of AI, physics, mathematics, and geometry to **automated industrial design** and **Computer vision**, and **LLM-based agentic AI** for **Digital Transformation (DX)** and  **Natural Language Porcessing**. My work builds on my previous experience, and has allowed me to continue to grow and develop skills in **geometric deep learning, surrogate modelling, constrained optimisation, team collaboration, industrial design, industry-style R&D, industry-level software development, and production-level engineering and deployment**.
 
 In my free time I have been continuing some academic research with my old collaborators, and develop personal projects to continue to push my R&D and engineering skills, e.g. [agentic AI for MTG deck building](https://github.com/GilesStrong/deep_mtg_2/)
+
 
 
 For more information, please see my [publications](https://gilesstrong.github.io/website/publications/) and [presentations](https://gilesstrong.github.io/website/presentations/) pages for further details. I can be found on [LinkedIn](https://www.linkedin.com/in/giles-strong), [GitHub](https://github.com/GilesStrong), and [Twitter](https://twitter.com/Giles_C_Strong), and am contactable by email at giles.c.strong ([@]) gmail.com.
